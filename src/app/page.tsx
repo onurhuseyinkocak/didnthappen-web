@@ -1,4 +1,4 @@
-const APP_STORE_URL = "https://apps.apple.com/app/didnthappen";
+const APP_STORE_URL = "https://apps.apple.com/us/app/didnthappen/id6762467761";
 
 export default function Home() {
   return (
