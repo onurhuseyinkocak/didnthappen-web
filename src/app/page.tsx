@@ -390,28 +390,23 @@ export default function Home() {
             </div>
 
             {/* Links */}
-            <div className="flex items-center gap-6 text-sm text-dark/40">
-              <a
-                href="/privacy"
-                className="hover:text-sage transition-colors"
-              >
-                Privacy Policy
-              </a>
-              <a href="/terms" className="hover:text-sage transition-colors">
-                Terms of Use
-              </a>
-              <a
-                href="/support"
-                className="hover:text-sage transition-colors"
-              >
-                Support
-              </a>
-              <a
-                href="mailto:support@didnthappen.app"
-                className="hover:text-sage transition-colors"
-              >
-                Contact
-              </a>
+            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-dark/40 max-w-xl">
+              <a href="/privacy" className="hover:text-sage transition-colors">Privacy</a>
+              <a href="/terms" className="hover:text-sage transition-colors">Terms</a>
+              <a href="/cookies" className="hover:text-sage transition-colors">Cookies</a>
+              <a href="/acceptable-use" className="hover:text-sage transition-colors">Acceptable Use</a>
+              <a href="/community-guidelines" className="hover:text-sage transition-colors">Community</a>
+              <a href="/copyright" className="hover:text-sage transition-colors">Copyright</a>
+              <a href="/ugc" className="hover:text-sage transition-colors">User Content</a>
+              <a href="/ai-disclaimer" className="hover:text-sage transition-colors">AI Disclaimer</a>
+              <a href="/mental-health-disclaimer" className="hover:text-sage transition-colors">Mental Health</a>
+              <a href="/refunds" className="hover:text-sage transition-colors">Refunds</a>
+              <a href="/subscription-terms" className="hover:text-sage transition-colors">Subscriptions</a>
+              <a href="/contact" className="hover:text-sage transition-colors">Contact</a>
+              <a href="/abuse" className="hover:text-sage transition-colors">Report Abuse</a>
+              <a href="/delete-account" className="hover:text-sage transition-colors">Delete Account</a>
+              <a href="/unsubscribe" className="hover:text-sage transition-colors">Unsubscribe</a>
+              <a href="/support" className="hover:text-sage transition-colors">Support</a>
             </div>
 
             {/* Copyright */}

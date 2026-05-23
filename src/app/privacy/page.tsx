@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { LegalFooter } from "@/components/Legal";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — DidntHappen",
   description: "Privacy Policy for the DidntHappen iOS app.",
 };
 
-const LAST_UPDATED = "April 15, 2026";
-const EFFECTIVE_DATE = "April 15, 2026";
+const LAST_UPDATED = "May 23, 2026";
+const EFFECTIVE_DATE = "May 23, 2026";
 const APP_NAME = "DidntHappen";
 const DEVELOPER_NAME = "DidntHappen";
 const CONTACT_EMAIL = "privacy@didnthappen.app";
@@ -117,16 +118,22 @@ export default function PrivacyPage() {
         All subscription payments for {APP_NAME} Pro are processed by Apple through the App Store. We do not collect, store, or process payment card information. Your subscription can be managed through your Apple ID account settings. Apple's Privacy Policy applies to payment processing.
       </Section>
 
-      {/* Apple requires: third-party SDK disclosure */}
-      <Section title="10. Third-Party Services">
-        <p>The app uses the following third-party services:</p>
+      {/* Apple requires: third-party SDK + sub-processor disclosure */}
+      <Section title="10. Sub-processors and Third-Party Services">
+        <p>The app and our backend rely on the following independent sub-processors. Each receives only the data needed for the stated purpose. None of them are advertising or cross-app tracking providers.</p>
         <Table rows={[
           ["Service", "Purpose", "Data shared"],
-          ["Supabase", "Database & authentication", "Account ID, worry entries"],
-          ["Apple StoreKit 2", "Subscription management", "None (handled by Apple)"],
-          ["Apple Push Notification Service", "Local notifications", "Device push token (Apple only)"],
+          ["Supabase (Frankfurt, EU)", "Database, authentication, file storage", "Account ID, email (if Email sign-in), worry entries, chat messages, profile fields"],
+          ["Apple StoreKit 2", "Subscription billing and entitlement", "Apple-managed (we do not see payment details)"],
+          ["Apple Push Notification Service", "Local reminders, deadline alerts", "Device push token only"],
+          ["RevenueCat", "Subscription receipt validation and analytics", "Anonymous in-app user ID, subscription status"],
+          ["Sentry (Frankfurt, EU)", "Crash and error reporting for stability", "Anonymous in-app user ID, crash stack trace, OS version, app version"],
+          ["OpenAI", "Generates Mira's reflective text responses (server-to-server, per turn)", "Your most recent message and short relevant context. OpenAI does not train on this traffic under their API DPA."],
+          ["Microsoft Edge TTS", "Synthesises Mira's text into speech", "Generated reply text (not your private worry text directly)"],
+          ["Render (Frankfurt, EU)", "Hosts the Mira voice backend that orchestrates OpenAI and Edge TTS", "Transient request payload; no persistent storage beyond rate-limit counters"],
+          ["Vercel (US)", "Hosts this website (didnthappen-web)", "Standard web request logs only; no app data"],
         ]} />
-        <p style={{ marginTop: 12 }}>We do not use any third-party advertising, analytics, or tracking SDKs.</p>
+        <p style={{ marginTop: 12 }}>We do not use third-party advertising, behavioural analytics, or cross-app tracking SDKs. Our SDKs do not request App Tracking Transparency authorisation because no tracking occurs.</p>
       </Section>
 
       <Section title="11. International Data Transfers">
@@ -139,21 +146,30 @@ export default function PrivacyPage() {
         <p style={{ marginTop: 8 }}><strong>European Economic Area (GDPR):</strong> Our legal basis for processing is contract performance (providing the app service). You have the right to access, rectify, erase, restrict, and port your data, and to lodge a complaint with your supervisory authority.</p>
       </Section>
 
-      <Section title="13. Changes to This Policy">
+      <Section title="13. Sensitive Data (Mental Health)">
+        Worry entries and chat messages can describe how you feel, which may amount to <strong>special category personal data</strong> under GDPR Article 9. Our legal basis for processing this data is your <strong>explicit consent</strong>, given when you agree to these terms during onboarding. You may withdraw consent at any time by deleting your account (see <a href="/delete-account">/delete-account</a>); withdrawal does not affect the lawfulness of processing before withdrawal.
+      </Section>
+
+      <Section title="14. Data Breach Notification">
+        If we discover a personal-data breach that is likely to result in a risk to your rights and freedoms, we will notify the competent supervisory authority within 72 hours of becoming aware, as required by GDPR Article 33, and we will notify you without undue delay where the risk is high (Article 34).
+      </Section>
+
+      <Section title="15. Encryption and Security Posture">
+        Data is encrypted in transit (TLS 1.2+) and at rest (AES-256 at Supabase). Row-level security enforces account isolation at the database. Crash logs sent to Sentry have personal identifiers stripped. No system is risk-free — we describe what we do and how to reach us if you suspect a problem (<a href="mailto:privacy@didnthappen.app">privacy@didnthappen.app</a>).
+      </Section>
+
+      <Section title="16. Changes to This Policy">
         We may update this Privacy Policy. We will notify you of material changes via an in-app banner before the change takes effect. The updated policy will also be posted at this URL with a new effective date. Continued use after changes constitutes acceptance.
       </Section>
 
-      <Section title="14. Contact and Data Controller">
+      <Section title="17. Contact and Data Controller">
         <p><strong>Data controller:</strong> {DEVELOPER_NAME}</p>
         <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
         <p>Support: <a href={SUPPORT_URL}>{SUPPORT_URL}</a></p>
+        <p>Right to lodge a complaint with a supervisory authority: EEA/UK residents may complain to their local data-protection authority. A list is published at <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en" target="_blank" rel="noreferrer">edpb.europa.eu</a>.</p>
       </Section>
 
-      <div style={{ borderTop: "1px solid var(--border)", marginTop: 64, paddingTop: 32, display: "flex", gap: 24, fontSize: 14, color: "var(--text-tertiary)" }}>
-        <a href="/">Home</a>
-        <a href="/terms">Terms of Use</a>
-        <a href="/support">Support</a>
-      </div>
+      <LegalFooter />
     </div>
   );
 }

@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { LegalFooter } from "@/components/Legal";
 
 export const metadata: Metadata = {
   title: "Terms of Use — DidntHappen",
   description: "Terms of Use for the DidntHappen iOS app.",
 };
 
-const LAST_UPDATED = "April 15, 2026";
-const EFFECTIVE_DATE = "April 15, 2026";
+const LAST_UPDATED = "May 23, 2026";
+const EFFECTIVE_DATE = "May 23, 2026";
 const APP_NAME = "DidntHappen";
 const DEVELOPER_NAME = "DidntHappen";
 const CONTACT_EMAIL = "support@didnthappen.app";
@@ -55,17 +56,19 @@ export default function TermsPage() {
       <Section title="5. Subscriptions and Billing">
         <p><strong>{APP_NAME} Pro</strong> is available as an auto-renewing subscription:</p>
         <ul>
-          <li><strong>Plans:</strong> Monthly and Annual.</li>
-          <li><strong>Payment:</strong> Payment will be charged to your Apple ID account at confirmation of purchase.</li>
+          <li><strong>Plans:</strong> Weekly ($2.99/week) and Annual ($59.99/year). Prices vary by territory.</li>
+          <li><strong>Free trial:</strong> Eligible new subscribers receive a 3-day free introductory period. The trial is offered on both Weekly and Annual plans in 175 territories and is granted at most once per Apple ID across both plans. Apple does not charge during the trial. If you do not cancel before the trial ends, the subscription begins at the price shown on the paywall.</li>
+          <li><strong>Payment:</strong> Payment will be charged to your Apple ID account at confirmation of purchase (or at the end of the free trial, if applicable).</li>
           <li><strong>Auto-renewal:</strong> Your subscription automatically renews unless cancelled at least 24 hours before the end of the current billing period.</li>
           <li><strong>Renewal charge:</strong> Your account will be charged for renewal within 24 hours prior to the end of the current period, at the rate of the selected plan.</li>
-          <li><strong>Managing subscriptions:</strong> You can manage and turn off auto-renewal at any time by going to your Account Settings in the App Store after purchase.</li>
+          <li><strong>Managing subscriptions:</strong> You can manage and turn off auto-renewal at any time in Settings → [your Apple ID] → Subscriptions, or via <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noreferrer">apps.apple.com/account/subscriptions</a>.</li>
           <li><strong>Cancellation:</strong> Cancellation takes effect at the end of the current billing period — you retain access until then.</li>
-          <li><strong>No refunds:</strong> We do not offer refunds for partial subscription periods. Refunds are handled exclusively by Apple in accordance with their refund policy.</li>
-          <li><strong>Price changes:</strong> We will notify you of any price changes. Continued use after a price change constitutes acceptance of the new price.</li>
+          <li><strong>Refunds:</strong> Refund requests are handled exclusively by Apple. See <a href="/refunds">/refunds</a>.</li>
+          <li><strong>EU 14-day withdrawal:</strong> EU residents may withdraw a subscription purchase within 14 days where Apple's flow does not require explicit consent to immediate performance. See <a href="/refunds">/refunds</a>.</li>
+          <li><strong>Price changes:</strong> Material price increases require your explicit consent before Apple charges the new price, as enforced by Apple. Otherwise, continued use after a notified price change constitutes acceptance.</li>
         </ul>
         <p style={{ marginTop: 12 }}>
-          Subscription pricing is listed in the app. Prices may vary by region and are determined by the App Store.
+          Full subscription terms are also published at <a href="/subscription-terms">/subscription-terms</a>.
         </p>
       </Section>
 
@@ -159,17 +162,17 @@ export default function TermsPage() {
         We may update these Terms from time to time. We will notify you of material changes via an in-app banner at least 7 days before the change takes effect. Your continued use of the App after the effective date constitutes acceptance of the updated Terms.
       </Section>
 
-      <Section title="18. Contact">
-        <p>For questions about these Terms:</p>
-        <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
-        <p><a href="https://didnthappen-web.vercel.app/support">Support Center</a></p>
+      <Section title="18. Governing Law and Disputes">
+        These Terms are governed by the laws of the Republic of Türkiye, without regard to its conflict-of-laws rules. Mandatory consumer-protection rights in your country of residence (EU, UK, US states, etc.) remain unaffected. Any dispute arising from these Terms or your use of the App shall first be addressed in good faith between you and us; if not resolved within 30 days, the dispute may be brought before the competent courts of Istanbul, Türkiye, except where mandatory local law assigns exclusive jurisdiction to your country of residence.
       </Section>
 
-      <div style={{ borderTop: "1px solid var(--border)", marginTop: 64, paddingTop: 32, display: "flex", gap: 24, fontSize: 14, color: "var(--text-tertiary)" }}>
-        <a href="/">Home</a>
-        <a href="/privacy">Privacy Policy</a>
-        <a href="/support">Support</a>
-      </div>
+      <Section title="19. Contact">
+        <p>For questions about these Terms:</p>
+        <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> · Legal: <a href="mailto:legal@didnthappen.app">legal@didnthappen.app</a></p>
+        <p><a href="/contact">/contact</a> · <a href="https://didnthappen-web.vercel.app/support">Support Center</a></p>
+      </Section>
+
+      <LegalFooter />
     </div>
   );
 }
