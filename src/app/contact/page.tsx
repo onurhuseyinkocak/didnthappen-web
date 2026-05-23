@@ -28,9 +28,11 @@ export default function ContactPage() {
         Delete your account from inside the iOS app (Settings → Account → Delete Account) or email <a href="mailto:delete@didnthappen.app">delete@didnthappen.app</a>. See <a href="/delete-account">/delete-account</a> for details.
       </Section>
       <Section title="Postal address">
-        DidntHappen
+        Onur Hüseyin Koçak (DidntHappen)
         <br />
-        [Business postal address pending — please use email for all inquiries.]
+        Güllerpınarı, Harmandalı 6/7
+        <br />
+        Alanya, Antalya, Türkiye
       </Section>
       <Section title="Response time">
         We aim to respond within 5 business days for support requests and within 30 days for privacy or legal requests, as required by GDPR / CCPA / similar laws.
