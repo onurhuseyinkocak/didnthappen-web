@@ -1,7 +1,7 @@
 import type { CSSProperties, ReactNode } from "react";
 
-export const LEGAL_LAST_UPDATED = "May 23, 2026";
-export const LEGAL_EFFECTIVE_DATE = "May 23, 2026";
+export const LEGAL_LAST_UPDATED = "May 24, 2026";
+export const LEGAL_EFFECTIVE_DATE = "May 24, 2026";
 export const APP_NAME = "DidntHappen";
 export const DEVELOPER_NAME = "DidntHappen";
 export const CONTACT_EMAIL = "privacy@didnthappen.app";

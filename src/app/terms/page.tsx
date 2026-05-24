@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   description: "Terms of Use for the DidntHappen iOS app.",
 };
 
-const LAST_UPDATED = "May 23, 2026";
-const EFFECTIVE_DATE = "May 23, 2026";
+const LAST_UPDATED = "May 24, 2026";
+const EFFECTIVE_DATE = "May 24, 2026";
 const APP_NAME = "DidntHappen";
 const DEVELOPER_NAME = "DidntHappen";
 const CONTACT_EMAIL = "support@didnthappen.app";
@@ -45,6 +45,7 @@ export default function TermsPage() {
         <ul>
           <li>The app does not provide diagnoses, treatment plans, or medical advice.</li>
           <li>Exercises within the app (breathing, cognitive defusion, grounding) are informational tools, not clinical protocols.</li>
+          <li>Mira is an AI system, not a licensed clinician, and cannot diagnose or treat mental health conditions.</li>
           <li>Statistics (e.g., "91% of fears never happen") are based on published peer-reviewed research and your personal data — they are not guaranteed outcomes for any individual.</li>
         </ul>
         <p style={{ marginTop: 12, fontWeight: 600, color: "var(--text)" }}>
@@ -52,8 +53,20 @@ export default function TermsPage() {
         </p>
       </Section>
 
+      <Section title="4b. AI Data Processing and OpenAI DPA">
+        <p>
+          When you use Mira or opt into memory-extraction features, your text is sent to OpenAI's API for processing:
+        </p>
+        <ul>
+          <li><strong>Data Processing Addendum (DPA):</strong> OpenAI processes this data under a DPA that explicitly prohibits training future models on your API traffic.</li>
+          <li><strong>Retention:</strong> OpenAI retains data for up to 30 days for abuse monitoring. Longer retention is available only under Enterprise agreements (Zero Data Retention).</li>
+          <li><strong>No training:</strong> Your worry entries and conversations are not used to improve OpenAI's models or shared with other customers.</li>
+          <li><strong>Your choice:</strong> You can disable Mira features to avoid sending data to OpenAI, though this limits app functionality.</li>
+        </ul>
+      </Section>
+
       {/* Apple requires: subscription / auto-renewal terms — verbatim Apple language required */}
-      <Section title="5. Subscriptions and Billing">
+      <Section title="6. Subscriptions and Billing">
         <p><strong>{APP_NAME} Pro</strong> is available as an auto-renewing subscription:</p>
         <ul>
           <li><strong>Plans:</strong> Weekly ($2.99/week) and Annual ($59.99/year). Prices vary by territory.</li>
@@ -72,7 +85,7 @@ export default function TermsPage() {
         </p>
       </Section>
 
-      <Section title="6. User Accounts">
+      <Section title="7. User Accounts">
         <ul>
           <li>You are responsible for maintaining the security of your account.</li>
           <li>You must not share your account credentials with others.</li>
@@ -81,7 +94,7 @@ export default function TermsPage() {
         </ul>
       </Section>
 
-      <Section title="7. User Content">
+      <Section title="8. User Content">
         <p>You retain full ownership of any content you create in the App ("User Content"), including worry entries, notes, and reflections.</p>
         <ul>
           <li>By using the App, you grant us a limited, non-exclusive, worldwide, royalty-free license to store, process, and display your User Content solely to provide the service to you.</li>
@@ -90,7 +103,7 @@ export default function TermsPage() {
         </ul>
       </Section>
 
-      <Section title="8. Acceptable Use">
+      <Section title="9. Acceptable Use">
         <p>You agree not to:</p>
         <ul>
           <li>Use the App for any unlawful, harmful, or fraudulent purpose.</li>
@@ -102,30 +115,30 @@ export default function TermsPage() {
         </ul>
       </Section>
 
-      <Section title="9. Intellectual Property">
+      <Section title="10. Intellectual Property">
         All content, software, features, and functionality of {APP_NAME} — including but not limited to the UI design, graphics, text, animations, and source code — are owned by or licensed to {DEVELOPER_NAME} and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, sell, or create derivative works without our written permission.
       </Section>
 
       {/* Apple requires: termination clause */}
-      <Section title="10. Termination">
+      <Section title="11. Termination">
         <p>We may suspend or terminate your access to the App at any time if you violate these Terms or for any other reason at our sole discretion. You may terminate your account at any time by deleting it from the Settings screen.</p>
         <p style={{ marginTop: 8 }}>Upon termination, your license to use the App ends. Sections that by their nature should survive termination (intellectual property, disclaimers, limitation of liability) will continue to apply.</p>
       </Section>
 
       {/* Apple requires: disclaimer of warranties */}
-      <Section title="11. Disclaimer of Warranties">
+      <Section title="12. Disclaimer of Warranties">
         THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE OF HARMFUL COMPONENTS.
       </Section>
 
       {/* Apple requires: limitation of liability */}
-      <Section title="12. Limitation of Liability">
+      <Section title="13. Limitation of Liability">
         TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL {DEVELOPER_NAME.toUpperCase()} BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES — INCLUDING LOSS OF PROFITS, DATA, GOODWILL, OR BUSINESS — ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE APP, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
         OUR TOTAL LIABILITY TO YOU FOR ALL CLAIMS ARISING FROM OR RELATED TO THE APP SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE APP (IF ANY) IN THE TWELVE MONTHS PRECEDING THE CLAIM.
       </Section>
 
       {/* Apple requires: account deletion instructions */}
-      <Section title="13. Account Deletion">
+      <Section title="14. Account Deletion">
         You may delete your account at any time:
         <ol>
           <li>Open the {APP_NAME} app.</li>
@@ -137,16 +150,16 @@ export default function TermsPage() {
       </Section>
 
       {/* Apple requires: third-party content / links */}
-      <Section title="14. Third-Party Services">
+      <Section title="15. Third-Party Services">
         The App integrates with third-party services (Apple Sign In, App Store subscriptions, Supabase for data storage). Your use of these services is subject to their respective terms and privacy policies. We are not responsible for the practices of any third-party service providers.
       </Section>
 
       {/* Apple requires: governing law */}
-      <Section title="15. Governing Law and Dispute Resolution">
-        These Terms are governed by applicable laws. Any dispute arising from these Terms will first be addressed through good-faith negotiation. If unresolved, disputes shall be submitted to binding arbitration, except that either party may seek injunctive relief in a court of competent jurisdiction.
+      <Section title="15. Governing Law and Disputes">
+        These Terms are governed by the laws of the Republic of Türkiye, without regard to its conflict-of-laws rules. Mandatory consumer-protection rights in your country of residence (EU, UK, US states, etc.) remain unaffected. Any dispute arising from these Terms or your use of the App shall first be addressed in good faith between you and us; if not resolved within 30 days, the dispute may be brought before the competent courts of Istanbul, Türkiye, except where mandatory local law assigns exclusive jurisdiction to your country of residence.
       </Section>
 
-      <Section title="16. Apple-Specific Terms">
+      <Section title="17. Apple-Specific Terms">
         <p>As required by Apple's standard EULA provisions:</p>
         <ul>
           <li>These Terms are between you and {DEVELOPER_NAME} only, not with Apple.</li>
@@ -158,15 +171,11 @@ export default function TermsPage() {
         </ul>
       </Section>
 
-      <Section title="17. Changes to These Terms">
+      <Section title="18. Changes to These Terms">
         We may update these Terms from time to time. We will notify you of material changes via an in-app banner at least 7 days before the change takes effect. Your continued use of the App after the effective date constitutes acceptance of the updated Terms.
       </Section>
 
-      <Section title="18. Governing Law and Disputes">
-        These Terms are governed by the laws of the Republic of Türkiye, without regard to its conflict-of-laws rules. Mandatory consumer-protection rights in your country of residence (EU, UK, US states, etc.) remain unaffected. Any dispute arising from these Terms or your use of the App shall first be addressed in good faith between you and us; if not resolved within 30 days, the dispute may be brought before the competent courts of Istanbul, Türkiye, except where mandatory local law assigns exclusive jurisdiction to your country of residence.
-      </Section>
-
-      <Section title="19. Contact">
+      <Section title="18. Contact">
         <p>For questions about these Terms:</p>
         <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> · Legal: <a href="mailto:legal@didnthappen.app">legal@didnthappen.app</a></p>
         <p><a href="/contact">/contact</a> · <a href="https://didnthappen-web.vercel.app/support">Support Center</a></p>

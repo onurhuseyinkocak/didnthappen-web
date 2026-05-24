@@ -16,15 +16,23 @@ export default function MentalHealthDisclaimerPage() {
         Mira is an AI reflective companion. Mira is not a therapist, psychologist, psychiatrist, counsellor, social worker, doctor, or any other licensed professional. Mira cannot diagnose conditions, prescribe medication, deliver crisis intervention, or replace human clinical care.
       </Section>
       <Section title="3. Crisis resources">
-        If you are thinking about hurting yourself or someone else, or you are in immediate danger, contact local emergency services right now.
+        <p>
+          If you are thinking about hurting yourself or someone else, or you are in immediate danger, contact local emergency services or a crisis helpline right now. Do not wait. Do not rely on this app.
+        </p>
         <ul>
-          <li><strong>US/Canada:</strong> Call or text 988 (Suicide and Crisis Lifeline)</li>
-          <li><strong>US/UK/IE/CA:</strong> Text HOME to 741741 (Crisis Text Line)</li>
-          <li><strong>Türkiye:</strong> 444 0 741 (Yaşam Çizgisi)</li>
-          <li><strong>Germany/AT/CH:</strong> 0800 111 0 111 (Telefonseelsorge)</li>
+          <li><strong>US/Canada:</strong> Call or text 988 (Suicide and Crisis Lifeline) — available 24/7</li>
+          <li><strong>US/Canada/UK/Ireland:</strong> Text HOME to 741741 (Crisis Text Line) — available 24/7</li>
+          <li><strong>Türkiye:</strong> Call 444 0 741 (Yaşam Çizgisi / Life Line) or 182 (Police Emergency) or 112 (Emergency)</li>
+          <li><strong>UK:</strong> Call 116 123 (Samaritans) — available 24/7</li>
+          <li><strong>Australia:</strong> Call 13 11 14 (Lifeline) or 1800 187 263 (Suicide Call Back Service)</li>
+          <li><strong>Germany, Austria, Switzerland:</strong> Call 0800 111 0 111 or 0800 111 0 222 (Telefonseelsorge)</li>
+          <li><strong>France:</strong> Call 3114 (National Suicide Prevention Number) — available 24/7</li>
+          <li><strong>Brazil:</strong> Call 188 (CVV — Centro de Valorização da Vida)</li>
           <li><strong>Worldwide directory:</strong> <a href="https://findahelpline.com" target="_blank" rel="noreferrer">findahelpline.com</a> and <a href="https://www.iasp.info/resources/Crisis_Centres/" target="_blank" rel="noreferrer">IASP Crisis Centres</a></li>
         </ul>
-        These resources are operated by independent organisations. DidntHappen is not affiliated with any of them and is not responsible for the support they provide.
+        <p style={{ marginTop: 12 }}>
+          These resources are operated by independent organizations. DidntHappen is not affiliated with any of them and is not responsible for the support they provide. They are listed for your reference and access only.
+        </p>
       </Section>
       <Section title="4. No outcome promise">
         Anxiety and worry are individual experiences. Use of this app may or may not produce changes you can perceive. We do not promise reduction in symptoms, cure, recovery, or any specific outcome. Statistics presented in the app (for example the "91% of worries never happen" reference) summarise published research and are presented for general education, not as a prediction about your worries.
