@@ -232,23 +232,23 @@ export default function PrivacyPage() {
         </p>
       </Section>
 
-      <Section title="14. Sensitive Data (Mental Health)">
+      <Section title="15. Sensitive Data (Mental Health)">
         Worry entries and chat messages can describe how you feel, which may amount to <strong>special category personal data</strong> under GDPR Article 9. Our legal basis for processing this data is your <strong>explicit consent</strong>, given when you agree to these terms during onboarding. You may withdraw consent at any time by deleting your account (see <a href="/delete-account">/delete-account</a>); withdrawal does not affect the lawfulness of processing before withdrawal.
       </Section>
 
-      <Section title="15. Data Breach Notification">
+      <Section title="16. Data Breach Notification">
         If we discover a personal-data breach that is likely to result in a risk to your rights and freedoms, we will notify the competent supervisory authority within 72 hours of becoming aware, as required by GDPR Article 33, and we will notify you without undue delay where the risk is high (Article 34).
       </Section>
 
-      <Section title="16. Encryption and Security Posture">
+      <Section title="17. Encryption and Security Posture">
         Data is encrypted in transit (TLS 1.2+) and at rest (AES-256 at Supabase). Row-level security enforces account isolation at the database. Crash logs sent to Sentry have personal identifiers stripped. No system is risk-free — we describe what we do and how to reach us if you suspect a problem (<a href="mailto:privacy@didnthappen.app">privacy@didnthappen.app</a>).
       </Section>
 
-      <Section title="17. Changes to This Policy">
+      <Section title="18. Changes to This Policy">
         We may update this Privacy Policy. We will notify you of material changes via an in-app banner before the change takes effect. The updated policy will also be posted at this URL with a new effective date. Continued use after changes constitutes acceptance.
       </Section>
 
-      <Section title="18. Data Protection Officer and GDPR Accountability">
+      <Section title="19. Data Protection Officer and GDPR Accountability">
         <p>
           DidntHappen is a small developer without mandatory Data Protection Officer appointment under GDPR Article 37 (not a public authority, not carrying out systematic monitoring of data subjects at scale). However, we comply with all GDPR requirements including lawfulness, fairness, transparency, purpose limitation, data minimization, accuracy, integrity, confidentiality, and accountability. Data processing is documented and requests for data rights are handled within 30 days under Articles 15–22.
         </p>
@@ -257,7 +257,7 @@ export default function PrivacyPage() {
         </p>
       </Section>
 
-      <Section title="19. Legal Basis and Lawfulness">
+      <Section title="20. Legal Basis and Lawfulness">
         <p><strong>Performance of contract:</strong> Your use of DidntHappen is based on the contract between you and us. We process your account data, worry entries, and preferences to perform this service.</p>
         <p style={{ marginTop: 8 }}><strong>Consent:</strong> You consent to process mental-health sensitive data (worry entries) by accepting these terms. You withdraw consent by deleting your account.</p>
         <p style={{ marginTop: 8 }}><strong>Legal compliance:</strong> We may process data where required by law (e.g., tax records, abuse investigation).</p>
