@@ -13,7 +13,7 @@ export default function CopyrightPage() {
         DidntHappen respects copyright and other intellectual-property rights. We respond to clear notices of alleged infringement that comply with the U.S. Digital Millennium Copyright Act (DMCA) and applicable laws in other jurisdictions.
       </Section>
       <Section title="2. Submitting a copyright notice">
-        Send a written notice to <a href="mailto:copyright@didnthappen.app">copyright@didnthappen.app</a> containing:
+        Send a written notice to <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a> containing:
         <ol>
           <li>Your physical or electronic signature.</li>
           <li>Identification of the copyrighted work claimed to be infringed.</li>

@@ -23,7 +23,7 @@ export default function RefundsPage() {
         Apple reviews each request individually. Approval is at Apple's discretion under Apple's own policies.
       </Section>
       <Section title="3. EU 14-day right of withdrawal">
-        If you reside in the European Union and you purchased a subscription, EU law gives you a 14-day right of withdrawal for digital services unless you expressly consented to immediate performance and acknowledged the loss of the right of withdrawal. The App Store's confirmation flow surfaces this. To exercise withdrawal, use the Report a Problem path above and select the EU-withdrawal reason where offered, or write to <a href="mailto:legal@didnthappen.app">legal@didnthappen.app</a>.
+        If you reside in the European Union and you purchased a subscription, EU law gives you a 14-day right of withdrawal for digital services unless you expressly consented to immediate performance and acknowledged the loss of the right of withdrawal. The App Store's confirmation flow surfaces this. To exercise withdrawal, use the Report a Problem path above and select the EU-withdrawal reason where offered, or write to <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a>.
       </Section>
       <Section title="4. Trial">
         New subscribers may be eligible for a 3-day free introductory offer. Apple will not bill you if you cancel during the trial. After the trial, the subscription renews at the disclosed price until you cancel.

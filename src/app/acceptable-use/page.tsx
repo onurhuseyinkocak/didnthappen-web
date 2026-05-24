@@ -33,7 +33,7 @@ export default function AcceptableUsePage() {
         We may suspend or terminate accounts that violate this policy, remove offending content, and report unlawful conduct to authorities where required. We may also preserve evidence (timestamps, device IDs, IPs) where permitted by law.
       </Section>
       <Section title="5. Reporting violations">
-        Report suspected violations to <a href="mailto:abuse@didnthappen.app">abuse@didnthappen.app</a>. We review reports promptly.
+        Report suspected violations to <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a>. We review reports promptly.
       </Section>
     </LegalPage>
   );

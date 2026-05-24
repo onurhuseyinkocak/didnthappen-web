@@ -25,7 +25,7 @@ export default function CookiesPage() {
         If we ever add non-essential cookies, we will publish a cookie banner before they load and update this page with a new effective date.
       </Section>
       <Section title="5. Contact">
-        Questions about cookies: <a href="mailto:privacy@didnthappen.app">privacy@didnthappen.app</a>.
+        Questions about cookies: <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a>.
       </Section>
     </LegalPage>
   );

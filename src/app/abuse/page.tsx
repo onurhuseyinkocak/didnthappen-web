@@ -23,7 +23,7 @@ export default function AbusePage() {
         Copyright complaints go to <a href="/copyright">/copyright</a> instead.
       </Section>
       <Section title="2. How to send a report">
-        Email <a href="mailto:abuse@didnthappen.app">abuse@didnthappen.app</a> with:
+        Email <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a> with:
         <ul>
           <li>Your contact email (we may need to follow up).</li>
           <li>What happened, in your own words.</li>

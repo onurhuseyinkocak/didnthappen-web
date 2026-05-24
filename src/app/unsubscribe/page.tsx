@@ -20,7 +20,7 @@ export default function UnsubscribePage() {
         Every marketing email contains an unsubscribe link in the footer. Tap it to remove yourself from the marketing list immediately. We honour unsubscribes globally across all marketing lists within 24 hours and process all marketing-list opt-outs within the 10-business-day window required by U.S. CAN-SPAM.
       </Section>
       <Section title="3. Manual unsubscribe">
-        If a link does not work, email <a href="mailto:privacy@didnthappen.app">privacy@didnthappen.app</a> from the address you want to remove. Subject: "Unsubscribe". We confirm by reply.
+        If a link does not work, email <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a> from the address you want to remove. Subject: "Unsubscribe". We confirm by reply.
       </Section>
       <Section title="4. Manage preferences in app">
         You can disable push notifications individually in iOS Settings → Notifications → DidntHappen. In-app you can also disable specific reminder types in Settings → Notifications.

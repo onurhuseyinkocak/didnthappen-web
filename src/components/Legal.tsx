@@ -4,11 +4,11 @@ export const LEGAL_LAST_UPDATED = "May 24, 2026";
 export const LEGAL_EFFECTIVE_DATE = "May 24, 2026";
 export const APP_NAME = "DidntHappen";
 export const DEVELOPER_NAME = "DidntHappen";
-export const CONTACT_EMAIL = "privacy@didnthappen.app";
-export const LEGAL_EMAIL = "legal@didnthappen.app";
-export const ABUSE_EMAIL = "abuse@didnthappen.app";
-export const COPYRIGHT_EMAIL = "copyright@didnthappen.app";
-export const DELETE_EMAIL = "delete@didnthappen.app";
+export const CONTACT_EMAIL = "info@vibecodingturkey.com";
+export const LEGAL_EMAIL = "info@vibecodingturkey.com";
+export const ABUSE_EMAIL = "info@vibecodingturkey.com";
+export const COPYRIGHT_EMAIL = "info@vibecodingturkey.com";
+export const DELETE_EMAIL = "info@vibecodingturkey.com";
 export const SUPPORT_URL = "https://didnthappen-web.vercel.app/support";
 
 export function LegalPage({

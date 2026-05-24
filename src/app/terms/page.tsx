@@ -10,7 +10,7 @@ const LAST_UPDATED = "May 24, 2026";
 const EFFECTIVE_DATE = "May 24, 2026";
 const APP_NAME = "DidntHappen";
 const DEVELOPER_NAME = "DidntHappen";
-const CONTACT_EMAIL = "support@didnthappen.app";
+const CONTACT_EMAIL = "info@vibecodingturkey.com";
 
 export default function TermsPage() {
   return (
@@ -177,7 +177,7 @@ export default function TermsPage() {
 
       <Section title="18. Contact">
         <p>For questions about these Terms:</p>
-        <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> · Legal: <a href="mailto:legal@didnthappen.app">legal@didnthappen.app</a></p>
+        <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> · Legal: <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a></p>
         <p><a href="/contact">/contact</a> · <a href="https://didnthappen-web.vercel.app/support">Support Center</a></p>
       </Section>
 

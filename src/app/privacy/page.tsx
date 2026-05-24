@@ -10,7 +10,7 @@ const LAST_UPDATED = "May 24, 2026";
 const EFFECTIVE_DATE = "May 24, 2026";
 const APP_NAME = "DidntHappen";
 const DEVELOPER_NAME = "DidntHappen";
-const CONTACT_EMAIL = "privacy@didnthappen.app";
+const CONTACT_EMAIL = "info@vibecodingturkey.com";
 const SUPPORT_URL = "https://didnthappen-web.vercel.app/support";
 
 export default function PrivacyPage() {
@@ -59,7 +59,7 @@ export default function PrivacyPage() {
           <li><strong>Data extracted:</strong> Key people mentioned, relationships described, recurring life events, worry patterns, emotional themes, and importance scores.</li>
           <li><strong>AI model used:</strong> OpenAI's gpt-4o-mini API analyzes your text to identify these entities and relationships. This model input is not used to train OpenAI's models (covered by our API DPA below).</li>
           <li><strong>Storage:</strong> Extracted entities are stored as structured data in your Supabase account (tables: user_entities, user_facts) and are used only to improve your personalized insights.</li>
-          <li><strong>Your control:</strong> Extracted memories appear in your account data export (when you export your data). You can request deletion of extracted data by contacting privacy@didnthappen.app.</li>
+          <li><strong>Your control:</strong> Extracted memories appear in your account data export (when you export your data). You can request deletion of extracted data by contacting info@vibecodingturkey.com.</li>
           <li><strong>No third-party sharing:</strong> Extracted memories are never sold, shared with advertisers, or used for purposes beyond providing you insight recommendations.</li>
         </ul>
       </Section>
@@ -204,7 +204,7 @@ export default function PrivacyPage() {
           <strong>Right to know:</strong> Contact <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> to request what personal information we hold and the purposes for processing.
         </p>
         <p style={{ marginTop: 8 }}>
-          <strong>Right to delete:</strong> Request deletion of your personal information via Settings → Delete Account or <a href="mailto:delete@didnthappen.app">delete@didnthappen.app</a>.
+          <strong>Right to delete:</strong> Request deletion of your personal information via Settings → Delete Account or <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a>.
         </p>
         <p style={{ marginTop: 8 }}>
           <strong>Right to correct:</strong> Contact us to correct inaccurate personal information.
@@ -241,7 +241,7 @@ export default function PrivacyPage() {
       </Section>
 
       <Section title="17. Encryption and Security Posture">
-        Data is encrypted in transit (TLS 1.2+) and at rest (AES-256 at Supabase). Row-level security enforces account isolation at the database. Crash logs sent to Sentry have personal identifiers stripped. No system is risk-free — we describe what we do and how to reach us if you suspect a problem (<a href="mailto:privacy@didnthappen.app">privacy@didnthappen.app</a>).
+        Data is encrypted in transit (TLS 1.2+) and at rest (AES-256 at Supabase). Row-level security enforces account isolation at the database. Crash logs sent to Sentry have personal identifiers stripped. No system is risk-free — we describe what we do and how to reach us if you suspect a problem (<a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a>).
       </Section>
 
       <Section title="18. Changes to This Policy">

@@ -29,10 +29,10 @@ export default function CommunityGuidelinesPage() {
         </ul>
       </Section>
       <Section title="4. Reporting and enforcement">
-        Use <a href="/abuse">/abuse</a> or email <a href="mailto:abuse@didnthappen.app">abuse@didnthappen.app</a> to report content. We may remove content, suspend, or terminate accounts that violate these guidelines.
+        Use <a href="/abuse">/abuse</a> or email <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a> to report content. We may remove content, suspend, or terminate accounts that violate these guidelines.
       </Section>
       <Section title="5. Appeals">
-        If we remove content or suspend your account and you believe we made a mistake, reply to the notification email or write to <a href="mailto:legal@didnthappen.app">legal@didnthappen.app</a> with details. We will review in good faith.
+        If we remove content or suspend your account and you believe we made a mistake, reply to the notification email or write to <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a> with details. We will review in good faith.
       </Section>
     </LegalPage>
   );

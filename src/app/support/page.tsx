@@ -18,7 +18,7 @@ export default function SupportPage() {
         <h2 style={{ fontSize: 20, fontWeight: 700, marginBottom: 12, color: "var(--accent)" }}>Contact Us</h2>
         <p style={{ fontSize: 16, color: "var(--text-secondary)", lineHeight: 1.75 }}>
           For any questions, bug reports, or feedback, email us at:{" "}
-          <a href="mailto:support@didnthappen.app" style={{ color: "var(--accent)" }}>support@didnthappen.app</a>
+          <a href="mailto:info@vibecodingturkey.com" style={{ color: "var(--accent)" }}>info@vibecodingturkey.com</a>
         </p>
         <p style={{ fontSize: 16, color: "var(--text-secondary)", lineHeight: 1.75, marginTop: 12 }}>
           We typically respond within 1–2 business days.
@@ -51,7 +51,7 @@ export default function SupportPage() {
             },
             {
               q: "I was charged but the app still shows a paywall.",
-              a: "Tap 'Restore purchases' on the paywall screen. If the issue persists, contact us at support@didnthappen.app with your Apple ID receipt.",
+              a: "Tap 'Restore purchases' on the paywall screen. If the issue persists, contact us at info@vibecodingturkey.com with your Apple ID receipt.",
             },
           ].map(({ q, a }) => (
             <div key={q} style={{ borderLeft: "3px solid var(--accent)", paddingLeft: 16 }}>
