@@ -407,6 +407,13 @@ export default function Home() {
               <a href="/delete-account" className="hover:text-sage transition-colors">Delete Account</a>
               <a href="/unsubscribe" className="hover:text-sage transition-colors">Unsubscribe</a>
               <a href="/support" className="hover:text-sage transition-colors">Support</a>
+              <a href="https://promtable.com" className="hover:text-sage transition-colors">Promtable</a>
+              <a href="https://apps.apple.com/us/app/promtable-ai-prompt-vault/id6770004106" className="hover:text-sage transition-colors">Promtable iOS</a>
+              <a href="https://promtable.com/datasets/ai-tool-index" className="hover:text-sage transition-colors">AI Tool Index</a>
+              <a href="https://vibecodingturkey.com" className="hover:text-sage transition-colors">Vibe Coding Turkey</a>
+              <a href="https://dream-mining.co" className="hover:text-sage transition-colors">Dream Mining</a>
+              <a href="https://minesminis.com" className="hover:text-sage transition-colors">MinesMinis</a>
+              <a href="https://onarika.net" className="hover:text-sage transition-colors">Onarika</a>
             </div>
 
             {/* Copyright */}
