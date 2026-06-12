@@ -421,6 +421,16 @@ export default function Home() {
               &copy; {new Date().getFullYear()} DidntHappen. All rights
               reserved.
             </p>
+            <p className="text-xs text-dark/30">
+              Built with AI-assisted vibe coding by{" "}
+              <a href="https://growth.vibecodingturkey.com/brands/onur-huseyin-kocak" className="underline hover:text-dark/50">
+                Onur Hüseyin Koçak
+              </a>{" "}
+              · Community:{" "}
+              <a href="https://vibecodingturkey.com" className="underline hover:text-dark/50">
+                Vibe Coding Turkey
+              </a>
+            </p>
           </div>
         </div>
       </footer>
