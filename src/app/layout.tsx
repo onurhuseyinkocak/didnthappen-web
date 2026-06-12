@@ -57,10 +57,12 @@ const applicationSchema = {
       "https://dream-mining.co",
       "https://minesminis.com",
       "https://onarika.net",
+      "https://growth.vibecodingturkey.com/brands/onur-huseyin-kocak",
     ],
   },
   sameAs: [
     APP_STORE_URL,
+    "https://growth.vibecodingturkey.com/apps/didnthappen",
     "https://promtable.com/ecosystem",
     "https://promtable.com/datasets/ai-tool-index",
     "https://apps.apple.com/us/app/promtable-ai-prompt-vault/id6770004106",
