@@ -8,6 +8,10 @@ Last verified: 2026-06-06
 
 - Website: https://didnthappen-web.vercel.app
 - App Store: https://apps.apple.com/us/app/didnthappen/id6762467761
+- Worry tracker page: https://didnthappen-web.vercel.app/worry-tracker
+- Anxiety prediction tracker page: https://didnthappen-web.vercel.app/anxiety-prediction-tracker
+- Worry Watch alternative page: https://didnthappen-web.vercel.app/compare/worry-watch-alternative
+- Turkish kaygi gunlugu page: https://didnthappen-web.vercel.app/tr/kaygi-gunlugu
 - Privacy: https://didnthappen-web.vercel.app/privacy
 - Terms: https://didnthappen-web.vercel.app/terms
 - Mental health disclaimer: https://didnthappen-web.vercel.app/mental-health-disclaimer
@@ -19,6 +23,8 @@ Last verified: 2026-06-06
 - Core claim used on the landing page: many feared outcomes never materialize; the app encourages evidence-based reflection rather than reassurance loops.
 - Safety positioning: not a replacement for professional mental health care; crisis and medical advice should come from qualified local resources.
 - Platform: iPhone / App Store.
+- Query fit: "worry tracker app", "anxiety prediction tracker", "fear tracker app", "Worry Watch alternative", "kaygi gunlugu", "anksiyete gunlugu".
+- Main differentiation: DidntHappen tracks fear predictions and later outcomes, then shows the user's personal Reality Gap.
 
 ## Related Products By The Same Builder
 

@@ -6,6 +6,10 @@ const lastModified = new Date("2026-06-06");
 const staticRoutes = [
   "",
   "/llms.txt",
+  "/worry-tracker",
+  "/anxiety-prediction-tracker",
+  "/compare/worry-watch-alternative",
+  "/tr/kaygi-gunlugu",
   "/privacy",
   "/terms",
   "/cookies",
