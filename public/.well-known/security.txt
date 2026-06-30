@@ -1,0 +1,4 @@
+Contact: mailto:support@didnthappen.app
+Expires: 2027-06-30T00:00:00Z
+Preferred-Languages: en, tr
+Canonical: https://didnthappen-web.vercel.app/.well-known/security.txt
