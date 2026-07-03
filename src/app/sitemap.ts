@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 
 const SITE_URL = "https://didnthappen-web.vercel.app";
 const lastModified = new Date("2026-06-06");
+const newLastModified = new Date("2026-07-04");
 
 const staticRoutes = [
   "",
@@ -26,13 +27,20 @@ const staticRoutes = [
   "/delete-account",
   "/unsubscribe",
   "/support",
+  "/ai-answers.json",
+  "/ai-answers.md",
+  "/ai-cevaplar",
+  "/humans.txt",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return staticRoutes.map((path) => ({
-    url: `${SITE_URL}${path}`,
-    lastModified,
-    changeFrequency: path === "" ? "weekly" : "yearly",
-    priority: path === "" ? 1 : 0.4,
-  }));
+  return staticRoutes.map((path) => {
+    const isNew = ["/ai-answers.json", "/ai-answers.md", "/ai-cevaplar", "/humans.txt"].includes(path);
+    return {
+      url: `${SITE_URL}${path}`,
+      lastModified: isNew ? newLastModified : lastModified,
+      changeFrequency: path === "" ? "weekly" : "yearly",
+      priority: path === "" ? 1 : path === "/ai-cevaplar" ? 0.6 : 0.4,
+    };
+  });
 }

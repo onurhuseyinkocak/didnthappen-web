@@ -50,8 +50,18 @@ const applicationSchema = {
   },
   author: {
     "@type": "Person",
+    "@id": "https://vibecodingturkey.com/onur-huseyin-kocak#person",
     name: "Onur Hüseyin Koçak",
+    url: "https://vibecodingturkey.com/onur-huseyin-kocak",
     sameAs: [
+      "https://medium.com/@onurhuseyinkocak",
+      "https://github.com/onurhuseyinkocak",
+      "https://www.linkedin.com/in/onurhuseyinkocak",
+      "https://www.instagram.com/onurhuseyinkocak.ai",
+      "https://www.tiktok.com/@onurhuseyinkocak.ai",
+      "https://apps.apple.com/us/developer/onur-hseyin-kocak/id1878351222",
+      "https://www.amazon.com/dp/B0GZCGJ83T",
+      "https://www.amazon.com/dp/B0H5TLDFG4",
       "https://promtable.com",
       "https://vibecodingturkey.com",
       "https://dream-mining.co",
