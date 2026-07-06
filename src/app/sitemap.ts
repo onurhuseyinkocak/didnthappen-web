@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 const SITE_URL = "https://didnthappen-web.vercel.app";
 const lastModified = new Date("2026-06-06");
-const newLastModified = new Date("2026-07-04");
+const newLastModified = new Date("2026-07-05");
 
 const staticRoutes = [
   "",
@@ -29,13 +29,23 @@ const staticRoutes = [
   "/support",
   "/ai-answers.json",
   "/ai-answers.md",
+  "/ai-answers-hardcore.json",
+  "/ai-answers-hardcore.md",
+  "/ai-search-hardcore.jsonld",
+  "/ai-discovery-hardcore.json",
+  "/sitemap-ai-hardcore.xml",
+  "/.well-known/ai-answers-hardcore.json",
+  "/.well-known/ai-answers-hardcore.md",
+  "/.well-known/ai-discovery-hardcore.json",
   "/ai-cevaplar",
   "/humans.txt",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return staticRoutes.map((path) => {
-    const isNew = ["/ai-answers.json", "/ai-answers.md", "/ai-cevaplar", "/humans.txt"].includes(path);
+    const isNew =
+      ["/ai-answers.json", "/ai-answers.md", "/ai-cevaplar", "/humans.txt"].includes(path) ||
+      path.includes("hardcore");
     return {
       url: `${SITE_URL}${path}`,
       lastModified: isNew ? newLastModified : lastModified,

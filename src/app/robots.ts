@@ -28,6 +28,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "YouBot", allow: "/" },
       { userAgent: "MistralAI-User", allow: "/" },
     ],
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: [`${SITE_URL}/sitemap.xml`, `${SITE_URL}/sitemap-ai-hardcore.xml`],
   };
 }
