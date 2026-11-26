@@ -28,6 +28,7 @@ export const metadata: Metadata = {
   },
   other: {
     "apple-itunes-app": "app-id=6762467761",
+    "msvalidate.01": "5A9A887B37FD4117E878FDA4134C5B82",
   },
 };
 
