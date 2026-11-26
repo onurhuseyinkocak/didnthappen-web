@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://didnthappen-web.vercel.app";
+const SITE_URL = "https://didnthappenapp.vercel.app";
 const lastModified = new Date("2026-06-06");
 const newLastModified = new Date("2026-07-05");
 

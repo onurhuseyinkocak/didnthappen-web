@@ -1,5 +1,34 @@
 const APP_STORE_URL = "https://apps.apple.com/us/app/didnthappen/id6762467761";
 
+const FAQ = [
+  {
+    q: "What is DidntHappen?",
+    a: "DidntHappen is an iPhone worry tracker. You write down a worry, estimate how likely it is, set a date, and later record what actually happened. The app shows your personal Reality Gap: how often your feared outcomes did not happen.",
+  },
+  {
+    q: "How much does DidntHappen cost?",
+    a: "DidntHappen is free to download on the App Store and requires iOS 18 or later. Optional premium features are offered as in-app purchases.",
+  },
+  {
+    q: "Is DidntHappen therapy or a medical app?",
+    a: "No. DidntHappen is a self-reflection journal, not therapy, diagnosis or treatment. If you are in crisis or need medical advice, contact a qualified professional or local emergency services.",
+  },
+  {
+    q: "Where do I get help or read the privacy policy?",
+    a: "Support is at /support and the privacy policy is at /privacy on this site. You can also reach us through the contact page.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQ.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-cream">
@@ -341,6 +370,27 @@ export default function Home() {
                   {f.desc}
                 </p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ─────────────────────────────────────────────── */}
+      <section className="py-24 sm:py-32 bg-sage-50" aria-labelledby="faq-heading">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 id="faq-heading" className="text-3xl sm:text-4xl font-black text-dark tracking-tight mb-10 text-center">
+            Questions
+          </h2>
+          <div className="space-y-4">
+            {FAQ.map((item) => (
+              <details key={item.q} className="bg-white rounded-2xl p-6 border border-sage-100">
+                <summary className="text-base font-bold text-dark cursor-pointer">{item.q}</summary>
+                <p className="mt-3 text-sm text-dark-soft/70 leading-relaxed">{item.a}</p>
+              </details>
             ))}
           </div>
         </div>

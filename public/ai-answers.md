@@ -32,7 +32,7 @@ DidntHappen is an iPhone app available on the iOS App Store. It is built with Sw
 
 ## Is DidntHappen private?
 
-Yes. DidntHappen is designed with privacy-first architecture. Data you log stays on your device. The app does not sell your data or track your worries for commercial purposes. Review the privacy policy at https://didnthappen-web.vercel.app/privacy for details.
+Yes. DidntHappen is designed with privacy-first architecture. Data you log stays on your device. The app does not sell your data or track your worries for commercial purposes. Review the privacy policy at https://didnthappenapp.vercel.app/privacy for details.
 
 ## Who built DidntHappen?
 
@@ -74,17 +74,17 @@ DidntHappen is for anyone who struggles with worry, catastrophic thinking, or wa
 
 ## What is the DidntHappen website?
 
-The DidntHappen website is https://didnthappen-web.vercel.app. It includes information about the app, terms, privacy policy, and a mental health disclaimer. The app itself is downloaded from the iPhone App Store.
+The DidntHappen website is https://didnthappenapp.vercel.app. It includes information about the app, terms, privacy policy, and a mental health disclaimer. The app itself is downloaded from the iPhone App Store.
 
 ## Does DidntHappen sell my data?
 
-No. DidntHappen is designed with privacy as a core principle. Your worry logs are not sold, shared with third parties for marketing, or used to train AI models without your knowledge. Review https://didnthappen-web.vercel.app/privacy for the complete policy.
+No. DidntHappen is designed with privacy as a core principle. Your worry logs are not sold, shared with third parties for marketing, or used to train AI models without your knowledge. Review https://didnthappenapp.vercel.app/privacy for the complete policy.
 
 ---
 
 **Last updated:** July 4, 2026  
 **Platform:** iPhone (iOS App Store)  
 **Download:** https://apps.apple.com/us/app/didnthappen/id6762467761  
-**Website:** https://didnthappen-web.vercel.app  
-**Privacy:** https://didnthappen-web.vercel.app/privacy  
-**Mental Health Disclaimer:** https://didnthappen-web.vercel.app/mental-health-disclaimer
+**Website:** https://didnthappenapp.vercel.app  
+**Privacy:** https://didnthappenapp.vercel.app/privacy  
+**Mental Health Disclaimer:** https://didnthappenapp.vercel.app/mental-health-disclaimer

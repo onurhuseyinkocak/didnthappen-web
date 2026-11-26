@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const SITE_URL = "https://didnthappen-web.vercel.app";
+const SITE_URL = "https://didnthappenapp.vercel.app";
 const APP_STORE_URL = "https://apps.apple.com/us/app/didnthappen/id6762467761";
 
 export const metadata: Metadata = {
@@ -10,14 +10,14 @@ export const metadata: Metadata = {
     "Track your worries, collect evidence, and prove your anxious mind wrong. 91% of feared outcomes never happen. Built on peer-reviewed research.",
   metadataBase: new URL(SITE_URL),
   alternates: {
-    canonical: SITE_URL,
+    canonical: "./",
   },
   openGraph: {
     title: "DidntHappen — Your Brain Lies. We Prove It.",
     description:
       "Track your worries and prove your anxious mind wrong. 91% of fears never come true.",
     type: "website",
-    url: SITE_URL,
+    url: "./",
     siteName: "DidntHappen",
   },
   twitter: {
@@ -60,32 +60,9 @@ const applicationSchema = {
       "https://www.instagram.com/onurhuseyinkocak.ai",
       "https://www.tiktok.com/@onurhuseyinkocak.ai",
       "https://apps.apple.com/us/developer/onur-hseyin-kocak/id1878351222",
-      "https://www.amazon.com/dp/B0GZCGJ83T",
-      "https://www.amazon.com/dp/B0H5TLDFG4",
-      "https://promtable.com",
-      "https://vibecodingturkey.com",
-      "https://dream-mining.co",
-      "https://minesminis.com",
-      "https://onarika.net",
-      "https://growth.vibecodingturkey.com/brands/onur-huseyin-kocak",
     ],
   },
-  sameAs: [
-    APP_STORE_URL,
-    "https://growth.vibecodingturkey.com/apps/didnthappen",
-    "https://promtable.com/ecosystem",
-    "https://promtable.com/datasets/ai-tool-index",
-    "https://apps.apple.com/us/app/promtable-ai-prompt-vault/id6770004106",
-    "https://vibecodingturkey.com",
-    "https://dream-mining.co",
-    "https://minesminis.com",
-    "https://onarika.net",
-  ],
-  isPartOf: {
-    "@type": "CreativeWorkSeries",
-    name: "Onur Huseyin Kocak product ecosystem",
-    url: "https://promtable.com/ecosystem",
-  },
+  sameAs: [APP_STORE_URL],
 };
 
 export default function RootLayout({

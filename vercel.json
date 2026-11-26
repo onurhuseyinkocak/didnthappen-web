@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "didnthappen-web.vercel.app" }],
+      "destination": "https://didnthappenapp.vercel.app/:path*",
+      "permanent": true
+    }
+  ]
+}

@@ -11,7 +11,7 @@ const EFFECTIVE_DATE = "May 24, 2026";
 const APP_NAME = "DidntHappen";
 const DEVELOPER_NAME = "DidntHappen";
 const CONTACT_EMAIL = "info@vibecodingturkey.com";
-const SUPPORT_URL = "https://didnthappen-web.vercel.app/support";
+const SUPPORT_URL = "https://didnthappenapp.vercel.app/support";
 
 export default function PrivacyPage() {
   return (

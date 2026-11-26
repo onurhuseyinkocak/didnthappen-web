@@ -9,7 +9,7 @@ export const LEGAL_EMAIL = "info@vibecodingturkey.com";
 export const ABUSE_EMAIL = "info@vibecodingturkey.com";
 export const COPYRIGHT_EMAIL = "info@vibecodingturkey.com";
 export const DELETE_EMAIL = "info@vibecodingturkey.com";
-export const SUPPORT_URL = "https://didnthappen-web.vercel.app/support";
+export const SUPPORT_URL = "https://didnthappenapp.vercel.app/support";
 
 export function LegalPage({
   title,

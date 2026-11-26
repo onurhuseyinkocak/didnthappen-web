@@ -178,7 +178,7 @@ export default function TermsPage() {
       <Section title="18. Contact">
         <p>For questions about these Terms:</p>
         <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> · Legal: <a href="mailto:info@vibecodingturkey.com">info@vibecodingturkey.com</a></p>
-        <p><a href="/contact">/contact</a> · <a href="https://didnthappen-web.vercel.app/support">Support Center</a></p>
+        <p><a href="/contact">/contact</a> · <a href="https://didnthappenapp.vercel.app/support">Support Center</a></p>
       </Section>
 
       <LegalFooter />

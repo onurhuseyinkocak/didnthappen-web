@@ -8,7 +8,7 @@ GitHub: https://github.com/onurhuseyinkocak
 LinkedIn: https://www.linkedin.com/in/onurhuseyinkocak
 
 /* SITE */
-Site: https://didnthappen-web.vercel.app
+Site: https://didnthappenapp.vercel.app
 App: https://apps.apple.com/us/app/didnthappen/id6762467761
 Ecosystem: Vibe Coding Turkey — https://vibecodingturkey.com
 Standards: HTML5, JSON-LD, llms.txt, IndexNow
