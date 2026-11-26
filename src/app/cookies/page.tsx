@@ -10,7 +10,7 @@ export default function CookiesPage() {
   return (
     <LegalPage title="Cookie Policy">
       <Section title="1. Overview">
-        This page describes how the DidntHappen website (didnthappenapp.vercel.app) uses cookies and similar technologies. The DidntHappen iOS app does not use cookies.
+        This page describes how the DidntHappen website (didnthappen.onarika.net) uses cookies and similar technologies. The DidntHappen iOS app does not use cookies.
       </Section>
       <Section title="2. What we use">
         <ul>

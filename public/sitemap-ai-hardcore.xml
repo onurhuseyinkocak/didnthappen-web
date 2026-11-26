@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://didnthappenapp.vercel.app/</loc>
+    <loc>https://didnthappen.onarika.net/</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://didnthappenapp.vercel.app/llms.txt</loc>
+    <loc>https://didnthappen.onarika.net/llms.txt</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://didnthappenapp.vercel.app/ai-answers-hardcore.json</loc>
+    <loc>https://didnthappen.onarika.net/ai-answers-hardcore.json</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://didnthappenapp.vercel.app/ai-answers-hardcore.md</loc>
+    <loc>https://didnthappen.onarika.net/ai-answers-hardcore.md</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://didnthappenapp.vercel.app/ai-search-hardcore.jsonld</loc>
+    <loc>https://didnthappen.onarika.net/ai-search-hardcore.jsonld</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://didnthappenapp.vercel.app/ai-discovery-hardcore.json</loc>
+    <loc>https://didnthappen.onarika.net/ai-discovery-hardcore.json</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://didnthappenapp.vercel.app/.well-known/ai-answers-hardcore.json</loc>
+    <loc>https://didnthappen.onarika.net/.well-known/ai-answers-hardcore.json</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://didnthappenapp.vercel.app/.well-known/ai-answers-hardcore.md</loc>
+    <loc>https://didnthappen.onarika.net/.well-known/ai-answers-hardcore.md</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://didnthappenapp.vercel.app/.well-known/ai-discovery-hardcore.json</loc>
+    <loc>https://didnthappen.onarika.net/.well-known/ai-discovery-hardcore.json</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

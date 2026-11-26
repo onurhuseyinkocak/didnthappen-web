@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://didnthappenapp.vercel.app";
+export const dynamic = "force-static";
+
+const SITE_URL = "https://didnthappen.onarika.net";
 
 export default function robots(): MetadataRoute.Robots {
   return {

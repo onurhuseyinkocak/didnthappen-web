@@ -2,8 +2,24 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "didnthappen-web.vercel.app" }],
-      "destination": "https://didnthappenapp.vercel.app/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "didnthappen-web.vercel.app"
+        }
+      ],
+      "destination": "https://didnthappen.onarika.net/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "didnthappenapp.vercel.app"
+        }
+      ],
+      "destination": "https://didnthappen.onarika.net/:path*",
       "permanent": true
     }
   ]

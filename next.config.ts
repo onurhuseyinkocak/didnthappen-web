@@ -30,16 +30,20 @@ const securityHeaders = [
   },
 ];
 
-const nextConfig: NextConfig = {
-  poweredByHeader: false,
-  async headers() {
-    return [
-      {
-        source: "/:path*",
-        headers: securityHeaders,
+const staticExport = process.env.STATIC_EXPORT === "1";
+
+const nextConfig: NextConfig = staticExport
+  ? { output: "export", poweredByHeader: false }
+  : {
+      poweredByHeader: false,
+      async headers() {
+        return [
+          {
+            source: "/:path*",
+            headers: securityHeaders,
+          },
+        ];
       },
-    ];
-  },
-};
+    };
 
 export default nextConfig;

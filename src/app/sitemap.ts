@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://didnthappenapp.vercel.app";
+export const dynamic = "force-static";
+
+const SITE_URL = "https://didnthappen.onarika.net";
 const lastModified = new Date("2026-06-06");
 const newLastModified = new Date("2026-07-05");
 
@@ -37,20 +39,20 @@ const staticRoutes = [
   "/.well-known/ai-answers-hardcore.json",
   "/.well-known/ai-answers-hardcore.md",
   "/.well-known/ai-discovery-hardcore.json",
-  "/ai-cevaplar",
+  "/ai-cevaplar/",
   "/humans.txt",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return staticRoutes.map((path) => {
     const isNew =
-      ["/ai-answers.json", "/ai-answers.md", "/ai-cevaplar", "/humans.txt"].includes(path) ||
+      ["/ai-answers.json", "/ai-answers.md", "/ai-cevaplar/", "/humans.txt"].includes(path) ||
       path.includes("hardcore");
     return {
       url: `${SITE_URL}${path}`,
       lastModified: isNew ? newLastModified : lastModified,
       changeFrequency: path === "" ? "weekly" : "yearly",
-      priority: path === "" ? 1 : path === "/ai-cevaplar" ? 0.6 : 0.4,
+      priority: path === "" ? 1 : path === "/ai-cevaplar/" ? 0.6 : 0.4,
     };
   });
 }

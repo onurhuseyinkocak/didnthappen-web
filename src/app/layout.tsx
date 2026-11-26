@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const SITE_URL = "https://didnthappenapp.vercel.app";
+const SITE_URL = "https://didnthappen.onarika.net";
 const APP_STORE_URL = "https://apps.apple.com/us/app/didnthappen/id6762467761";
 
 export const metadata: Metadata = {
